@@ -1,3 +1,8 @@
+Based on [this akka http
+guide](https://developer.lightbend.com/guides/akka-http-quickstart-scala/index.html)
+
+General
+--------------
 * How does using actors work better than just having functions that return
 futures?
   - they help when you need to keep some form of state
