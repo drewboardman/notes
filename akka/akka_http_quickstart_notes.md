@@ -30,3 +30,5 @@ Marshalling
 * you have to provide a format instance for a type, if you plan on returning it
   with `complete(MyType)`
   - this is so you don't expose some type by accident
+  - they are also declared by their arrity
+  - the formatters are implemented "for free" by the Spray JSON library
